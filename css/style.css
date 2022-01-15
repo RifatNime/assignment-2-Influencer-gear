@@ -271,7 +271,6 @@ band section part
  news latter part
 -------------------------------------------------------------------------------------------------------- */
 .signin .container{
-    background-image: url(../images/shape-1.png);
     background-image: url(../images/Circle\ design.svg);
     background-repeat: no-repeat;
     background-size: 15%;
@@ -279,20 +278,20 @@ band section part
     background-position-y: 0%;
 }
 .newsletter{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        justify-content: center;
-        align-items: center;
-        margin-bottom: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
 }
 .news-h1{
-        display: flex;
-        justify-content: center;
-        margin-top: 130px;
-        margin-bottom: 80px;
-        font-weight: 700;
-        font-size: 35px;
-        line-height: 70px;
+    display: flex;
+    justify-content: center;
+    margin-top: 130px;
+    margin-bottom: 80px;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 70px;
 }
 .news-left img{
     width: 100%;
@@ -309,61 +308,61 @@ band section part
 }
 .news-right form{
     display: flex;
-        flex-direction: column;
-        align-items: center;
+    flex-direction: column;
+    align-items: center;
 }
 .newsletter-content {
-        align-items: flex-start;
-        margin: 10px 0;
-        padding-left: 100px;
+    align-items: flex-start;
+    margin: 10px 0;
+    padding-left: 100px;
 }
 .newsletter-content p {
-        margin: 10px 0;
-        font-size: 18px;
-        font-weight: 500;
-        margin-bottom: 20px;
+    margin: 10px 0;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 20px;
 }
 .newsletter-content h3 {
-        width: 40%;
-        border-bottom: 3px solid #E02C6D;
-        font-size: 25px;
-        text-transform: uppercase;
+    width: 40%;
+    border-bottom: 3px solid #E02C6D;
+    font-size: 25px;
+    text-transform: uppercase;
 }
-    .text-field{
-        width: 100%;
-        margin: 10px;
-        padding: 10px;
-        font-size: 18px;
-        font-family: inherit;/*inherit korle nijer kono font thakbe na*/
-        outline: 0;
-        border: 1px solid #3A3A3A;
-        font-size: 16px;
-        border: 1px solid #3a3a3a;
-        border-radius: 5px;
-        padding: 0 12px;
-        height: 150px;
-    }
-    .newsletter-content input[type="email"],
-    .newsletter-content input[type="text"]
-    {  
-        border: 0;
-        top: 0;
-        outline: 0;
-        margin: 5px;
-        font-size: 16px;
-        height: 42px;
-        width: 100%;
-        border: 1px solid #3a3a3a;
-        border-radius: 5px;
-        padding: 0 12px;
-        font-family: inherit;
-    }
-    .button-news{
-        padding: 10px 18px;
-        font-size: 16px;
-        line-height: 24px;
-        font-weight: 600;
-    }
+.text-field{
+width: 100%;
+margin: 10px;
+padding: 10px;
+font-size: 18px;
+font-family: inherit;/*inherit korle nijer kono font thakbe na*/
+outline: 0;
+border: 1px solid #3A3A3A;
+font-size: 16px;
+border: 1px solid #3a3a3a;
+border-radius: 5px;
+padding: 0 12px;
+height: 150px;
+}
+.newsletter-content input[type="email"],
+.newsletter-content input[type="text"]
+{  
+    border: 0;
+    top: 0;
+    outline: 0;
+    margin: 5px;
+    font-size: 16px;
+    height: 42px;
+    width: 100%;
+    border: 1px solid #3a3a3a;
+    border-radius: 5px;
+    padding: 0 12px;
+    font-family: inherit;
+}
+.button-news{
+    padding: 10px 18px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+}
 /* -----------------------------------------------------------------------------------------------------------
 footer section start 
 ---------------------------------------------------------------------------------------------------*/
@@ -425,17 +424,16 @@ media quary
     }
     .brands{
         margin-top: 50;
-        gap: 5px;
-        /* grid-template-columns: repeat(4, 1fr);
-       justify-content: center;
-       flex-wrap: wrap;
-       align-items: center; */
+        padding: 30px 30px;
     }
     .brands img{
-        width: 60%;
+        padding: 0 0;
+        margin: 0 0;
+        width: 70%;
         text-align: center;
         display: flex;
         align-items: center;
+        gap: 0;
     }
     .photo{
         text-align: center;
@@ -502,6 +500,14 @@ media quary
     }
     .brands{
         margin-top: 40;
+        gap: 0;
+        padding: 20px 30px;
+        
+    }
+    .brands img{
+        padding: 0 0;
+        margin: 20px 30px;
+        gap: 0;
     }
     .photo{
         text-align: center;
@@ -515,7 +521,7 @@ media quary
      /* Footer */
      .footer-section{
         padding: 10px 30px;
-    }
+     }
     .footer-h1{
         font-size: 18px;
         line-height: 24px;
@@ -566,6 +572,9 @@ media quary
         justify-content: center;
         align-items: center;
         justify-content: center;
+    }
+    .newsletter{
+        margin-bottom: 50px;
     }
     .newsletter-content{
         padding-left: 0px;
