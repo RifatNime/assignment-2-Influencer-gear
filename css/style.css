@@ -48,6 +48,11 @@ nav{
     font-size: 25px;
     margin: 0 15px;
 }
+.nav-icon:hover{
+    color:#E02C6D;
+    transform: scale(1.2);
+    transition: transform .75s, visibility .75s ease-in-out;
+}
 /*----------------------------------------------------------------------------- 
 navbar 
 ------------------------------------------------------------------------------*/
